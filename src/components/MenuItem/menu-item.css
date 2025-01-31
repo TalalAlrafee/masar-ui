@@ -1,0 +1,19 @@
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    align-items: center;
+    padding-left: 21px;
+    height: 36px;
+    /* background-color: rgba(88, 159, 215, 0.3); */
+    border-radius: 10px;
+    /* margin-bottom: 11px; */
+    box-sizing: border-box;
+
+}
+.menu-item-text{
+    margin-left: 14px;
+    font-size: 16px;
+    font-weight: 500
+}
+

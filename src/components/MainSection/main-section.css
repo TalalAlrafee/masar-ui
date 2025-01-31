@@ -1,0 +1,39 @@
+.main-section {
+  flex-basis: 80%;
+  /* border-top-right-radius: 15px;  
+border-bottom-right-radius: 15px;  */
+  /* width: 79%;
+height: 64.4%; */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100vh;
+} /* Center items horizontally */
+.messaging-block {
+  background-color: rgba(88, 159, 215, 0.1);
+  flex: 1;
+  border-top-left-radius: 10px;
+  /* border-bottom-left-radius: 10px; */
+  overflow-y: auto; /* Enables vertical scrollbar when needed */
+  overflow-x: hidden; /* Hides horizontal scrollbar */
+  white-space: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+.scrollable-div::-webkit-scrollbar {
+  width: 8px; /* Thin scrollbar */
+}
+
+.scrollable-div::-webkit-scrollbar-thumb {
+  background: #888; /* Darker color for the scrollbar */
+  /* Rounded edges */
+}
+
+.scrollable-div::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker on hover */
+}
+
+.scrollable-div::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Lighter background for contrast */
+}

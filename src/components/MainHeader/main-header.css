@@ -1,0 +1,11 @@
+.main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 45px;
+    width: 100%;
+
+    
+ 
+}

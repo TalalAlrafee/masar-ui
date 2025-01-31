@@ -1,0 +1,38 @@
+.input-block{
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfefe;
+}
+.input{
+    width: 74.4%;
+    border-radius: 16px;
+    border: none;
+    height: 56px;
+    background-color: #F7F9FB;
+    padding: 16px 20px;
+}
+input:focus, input:active {
+    border: none;
+    outline: none; /* Removes the default browser outline */
+  }
+.input::placeholder{
+    color: #cccdcf;
+}
+
+.button{
+    border: none;
+    position: absolute;
+    background-color: transparent;
+    z-index: 100;
+    right:11.7%;
+    cursor: pointer;
+    overflow: hidden;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.button:active {
+    transform: translateX(10px);
+    opacity: 0.5;
+
+}

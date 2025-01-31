@@ -1,0 +1,21 @@
+.AI-response{
+
+    
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 16px;
+    padding-left: 32px;
+    margin-right: 38px;
+    margin-left: 38px;
+}
+
+
+.AI-response-text{
+    margin-right: 32px;
+    
+}
