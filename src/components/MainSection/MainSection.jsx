@@ -43,9 +43,9 @@ function AuthMain(props) {
       console.error("Error:", error);
     }
   };
-  const StartBlockButton= ()=>{
+  const StartBlockButtonFunction= ()=>{
     setUserPrompts("How Can I lower my churn rates?")
-    
+
 
   }
 
@@ -55,7 +55,7 @@ function AuthMain(props) {
 
       <div className="messaging-block scrollable-div">
         {userPromptsArray.length === 0 ? (
-          <StartBlock />
+          <StartBlock StartBlockButtonFunction={StartBlockButtonFunction} />
         ) : (
           userPromptsArray.map((res, index) => (
             <Message key={index} text={res} />
